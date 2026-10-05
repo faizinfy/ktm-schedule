@@ -1,0 +1,4954 @@
+{
+  "meta": {
+    "source": "KTM Komuter Weekday Timetable (Tanjung Malim – Pelabuhan Klang), effective 1 January 2026",
+    "days": "Weekdays (Monday–Friday)"
+  },
+  "stations": [
+    "Tanjung Malim",
+    "Kuala Kubu Bharu",
+    "Rasa",
+    "Batang Kali",
+    "Serendah",
+    "Rawang",
+    "Kuang",
+    "Sungai Buloh",
+    "Kepong Sentral",
+    "Kepong",
+    "Segambut",
+    "Putra",
+    "Bank Negara",
+    "Kuala Lumpur",
+    "KL Sentral",
+    "Abdullah Hukum",
+    "Angkasapuri",
+    "Pantai Dalam",
+    "Petaling",
+    "Jalan Templer",
+    "Kg Dato Harun",
+    "Seri Setia",
+    "Setia Jaya",
+    "Subang Jaya",
+    "Batu Tiga",
+    "Shah Alam",
+    "Padang Jawa",
+    "Bukit Badak",
+    "Klang",
+    "Teluk Pulai",
+    "Teluk Gadong",
+    "Kg Raja Uda",
+    "Jalan Kastam",
+    "Pelabuhan Klang"
+  ],
+  "trains": [
+    {
+      "train": "2102",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "06:59"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "07:03"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "07:07"
+        },
+        {
+          "station": "Putra",
+          "time": "07:10"
+        },
+        {
+          "station": "Segambut",
+          "time": "07:14"
+        },
+        {
+          "station": "Kepong",
+          "time": "07:19"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "07:22"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "07:29"
+        },
+        {
+          "station": "Kuang",
+          "time": "07:37"
+        },
+        {
+          "station": "Rawang",
+          "time": "07:45"
+        },
+        {
+          "station": "Serendah",
+          "time": "07:53"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "08:01"
+        },
+        {
+          "station": "Rasa",
+          "time": "08:05"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "08:10"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "08:23"
+        }
+      ]
+    },
+    {
+      "train": "2103",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "05:27"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "05:40"
+        },
+        {
+          "station": "Rasa",
+          "time": "05:45"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "05:49"
+        },
+        {
+          "station": "Serendah",
+          "time": "05:57"
+        },
+        {
+          "station": "Rawang",
+          "time": "06:06"
+        },
+        {
+          "station": "Kuang",
+          "time": "06:13"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "06:21"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "06:28"
+        },
+        {
+          "station": "Kepong",
+          "time": "06:31"
+        },
+        {
+          "station": "Segambut",
+          "time": "06:36"
+        },
+        {
+          "station": "Putra",
+          "time": "06:41"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "06:44"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "06:48"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "06:51"
+        }
+      ]
+    },
+    {
+      "train": "2104",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "05:55"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "06:01"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "06:05"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "06:07"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "06:10"
+        },
+        {
+          "station": "Klang",
+          "time": "06:14"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "06:17"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "06:24"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "06:32"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "06:42"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "06:51"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "06:59"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "07:01"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "07:04"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "07:10"
+        },
+        {
+          "station": "Petaling",
+          "time": "07:12"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "07:15"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "07:18"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "07:21"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "07:27"
+        }
+      ]
+    },
+    {
+      "train": "2106",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "07:35"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "07:39"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "07:43"
+        },
+        {
+          "station": "Putra",
+          "time": "07:46"
+        },
+        {
+          "station": "Segambut",
+          "time": "07:50"
+        },
+        {
+          "station": "Kepong",
+          "time": "07:55"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "07:58"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "08:05"
+        },
+        {
+          "station": "Kuang",
+          "time": "08:13"
+        },
+        {
+          "station": "Rawang",
+          "time": "08:21"
+        },
+        {
+          "station": "Serendah",
+          "time": "08:29"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "08:37"
+        },
+        {
+          "station": "Rasa",
+          "time": "08:41"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "08:46"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "08:59"
+        }
+      ]
+    },
+    {
+      "train": "2107",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "06:02"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "06:15"
+        },
+        {
+          "station": "Rasa",
+          "time": "06:20"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "06:24"
+        },
+        {
+          "station": "Serendah",
+          "time": "06:32"
+        },
+        {
+          "station": "Rawang",
+          "time": "06:41"
+        },
+        {
+          "station": "Kuang",
+          "time": "06:48"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "06:56"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "07:03"
+        },
+        {
+          "station": "Kepong",
+          "time": "07:06"
+        },
+        {
+          "station": "Segambut",
+          "time": "07:11"
+        },
+        {
+          "station": "Putra",
+          "time": "07:16"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "07:19"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "07:23"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "07:26"
+        }
+      ]
+    },
+    {
+      "train": "2110",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "06:25"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "06:31"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "06:35"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "06:37"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "06:40"
+        },
+        {
+          "station": "Klang",
+          "time": "06:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "06:47"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "06:54"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "07:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "07:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "07:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "07:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "07:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "07:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "07:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "07:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "07:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "07:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "07:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "07:59"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "08:03"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "08:07"
+        },
+        {
+          "station": "Putra",
+          "time": "08:10"
+        },
+        {
+          "station": "Segambut",
+          "time": "08:14"
+        },
+        {
+          "station": "Kepong",
+          "time": "08:29"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "08:32"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "08:39"
+        },
+        {
+          "station": "Kuang",
+          "time": "08:47"
+        },
+        {
+          "station": "Rawang",
+          "time": "08:55"
+        },
+        {
+          "station": "Serendah",
+          "time": "09:03"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "09:11"
+        },
+        {
+          "station": "Rasa",
+          "time": "09:15"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "09:20"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "09:33"
+        }
+      ]
+    },
+    {
+      "train": "2111",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "06:32"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "06:45"
+        },
+        {
+          "station": "Rasa",
+          "time": "06:50"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "06:54"
+        },
+        {
+          "station": "Serendah",
+          "time": "07:02"
+        },
+        {
+          "station": "Rawang",
+          "time": "07:11"
+        },
+        {
+          "station": "Kuang",
+          "time": "07:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "07:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "07:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "07:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "07:41"
+        },
+        {
+          "station": "Putra",
+          "time": "07:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "07:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "07:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "07:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "08:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "08:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "08:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "08:14"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "08:16"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "08:22"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "08:24"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "08:30"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "08:38"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "08:46"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "09:02"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "09:08"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "09:14"
+        },
+        {
+          "station": "Klang",
+          "time": "09:18"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "09:21"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "09:24"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "09:26"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "09:33"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "09:39"
+        }
+      ]
+    },
+    {
+      "train": "2112",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "06:55"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "07:01"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "07:05"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "07:07"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "07:10"
+        },
+        {
+          "station": "Klang",
+          "time": "07:14"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "07:17"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "07:24"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "07:32"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "07:42"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "07:51"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "07:59"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "08:01"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "08:04"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "08:10"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "08:15"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "08:18"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "08:21"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "08:27"
+        }
+      ]
+    },
+    {
+      "train": "2113",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "06:47"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "07:00"
+        },
+        {
+          "station": "Rasa",
+          "time": "07:05"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "07:09"
+        },
+        {
+          "station": "Serendah",
+          "time": "07:17"
+        },
+        {
+          "station": "Rawang",
+          "time": "07:26"
+        },
+        {
+          "station": "Kuang",
+          "time": "07:33"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "07:41"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "07:48"
+        },
+        {
+          "station": "Kepong",
+          "time": "07:51"
+        },
+        {
+          "station": "Segambut",
+          "time": "07:56"
+        },
+        {
+          "station": "Putra",
+          "time": "08:01"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "08:04"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "08:08"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "08:11"
+        }
+      ]
+    },
+    {
+      "train": "2114",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "08:35"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "08:39"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "08:43"
+        },
+        {
+          "station": "Putra",
+          "time": "08:46"
+        },
+        {
+          "station": "Segambut",
+          "time": "08:50"
+        },
+        {
+          "station": "Kepong",
+          "time": "08:55"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "08:58"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "09:05"
+        },
+        {
+          "station": "Kuang",
+          "time": "09:13"
+        },
+        {
+          "station": "Rawang",
+          "time": "09:21"
+        },
+        {
+          "station": "Serendah",
+          "time": "09:29"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "09:37"
+        },
+        {
+          "station": "Rasa",
+          "time": "09:41"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "09:46"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "09:59"
+        }
+      ]
+    },
+    {
+      "train": "2115",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "07:02"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "07:15"
+        },
+        {
+          "station": "Rasa",
+          "time": "07:20"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "07:24"
+        },
+        {
+          "station": "Serendah",
+          "time": "07:32"
+        },
+        {
+          "station": "Rawang",
+          "time": "07:41"
+        },
+        {
+          "station": "Kuang",
+          "time": "07:48"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "07:56"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "08:03"
+        },
+        {
+          "station": "Kepong",
+          "time": "08:06"
+        },
+        {
+          "station": "Segambut",
+          "time": "08:11"
+        },
+        {
+          "station": "Putra",
+          "time": "08:16"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "08:19"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "08:23"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "08:26"
+        }
+      ]
+    },
+    {
+      "train": "2118",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "07:25"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "07:31"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "07:35"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "07:37"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "07:40"
+        },
+        {
+          "station": "Klang",
+          "time": "07:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "07:47"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "07:54"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "08:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "08:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "08:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "08:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "08:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "08:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "08:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "08:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "08:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "08:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "08:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "09:04"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "09:08"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "09:12"
+        },
+        {
+          "station": "Putra",
+          "time": "09:15"
+        },
+        {
+          "station": "Segambut",
+          "time": "09:19"
+        },
+        {
+          "station": "Kepong",
+          "time": "09:24"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "09:27"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "09:34"
+        },
+        {
+          "station": "Kuang",
+          "time": "09:42"
+        },
+        {
+          "station": "Rawang",
+          "time": "09:50"
+        },
+        {
+          "station": "Serendah",
+          "time": "09:58"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "10:06"
+        },
+        {
+          "station": "Rasa",
+          "time": "10:10"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "10:15"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "10:28"
+        }
+      ]
+    },
+    {
+      "train": "2119",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "07:32"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "07:45"
+        },
+        {
+          "station": "Rasa",
+          "time": "07:50"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "07:54"
+        },
+        {
+          "station": "Serendah",
+          "time": "08:02"
+        },
+        {
+          "station": "Rawang",
+          "time": "08:11"
+        },
+        {
+          "station": "Kuang",
+          "time": "08:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "08:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "08:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "08:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "08:41"
+        },
+        {
+          "station": "Putra",
+          "time": "08:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "08:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "08:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "08:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "09:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "09:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "09:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "09:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "09:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "09:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "09:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "09:30"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "09:38"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "09:46"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "10:02"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "10:08"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "10:14"
+        },
+        {
+          "station": "Klang",
+          "time": "10:18"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "10:21"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "10:24"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "10:26"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "10:33"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "10:39"
+        }
+      ]
+    },
+    {
+      "train": "2122",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "09:32"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "09:36"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "09:40"
+        },
+        {
+          "station": "Putra",
+          "time": "09:43"
+        },
+        {
+          "station": "Segambut",
+          "time": "09:47"
+        },
+        {
+          "station": "Kepong",
+          "time": "09:52"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "09:55"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "10:02"
+        },
+        {
+          "station": "Kuang",
+          "time": "10:10"
+        },
+        {
+          "station": "Rawang",
+          "time": "10:18"
+        },
+        {
+          "station": "Serendah",
+          "time": "10:26"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "10:34"
+        },
+        {
+          "station": "Rasa",
+          "time": "10:38"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "10:43"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "10:56"
+        }
+      ]
+    },
+    {
+      "train": "2126",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "08:25"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "08:31"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "08:35"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "08:37"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "08:40"
+        },
+        {
+          "station": "Klang",
+          "time": "08:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "08:47"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "08:54"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "09:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "09:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "09:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "09:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "09:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "09:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "09:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "09:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "09:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "09:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "09:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "10:04"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "10:08"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "10:12"
+        },
+        {
+          "station": "Putra",
+          "time": "10:15"
+        },
+        {
+          "station": "Segambut",
+          "time": "10:19"
+        },
+        {
+          "station": "Kepong",
+          "time": "10:24"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "10:27"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "10:34"
+        },
+        {
+          "station": "Kuang",
+          "time": "10:42"
+        },
+        {
+          "station": "Rawang",
+          "time": "10:50"
+        },
+        {
+          "station": "Serendah",
+          "time": "10:58"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "11:06"
+        },
+        {
+          "station": "Rasa",
+          "time": "11:10"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "11:15"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "11:28"
+        }
+      ]
+    },
+    {
+      "train": "2127",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "08:32"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "08:45"
+        },
+        {
+          "station": "Rasa",
+          "time": "08:50"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "08:54"
+        },
+        {
+          "station": "Serendah",
+          "time": "09:02"
+        },
+        {
+          "station": "Rawang",
+          "time": "09:11"
+        },
+        {
+          "station": "Kuang",
+          "time": "09:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "09:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "09:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "09:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "09:41"
+        },
+        {
+          "station": "Putra",
+          "time": "09:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "09:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "09:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "09:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "10:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "10:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "10:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "10:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "10:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "10:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "10:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "10:30"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "10:38"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "10:46"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "10:56"
+        }
+      ]
+    },
+    {
+      "train": "2130",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "09:25"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "09:31"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "09:35"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "09:37"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "09:40"
+        },
+        {
+          "station": "Klang",
+          "time": "09:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "09:47"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "09:54"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "10:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "10:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "10:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "10:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "10:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "10:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "10:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "10:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "10:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "10:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "10:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "10:59"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "11:03"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "11:07"
+        },
+        {
+          "station": "Putra",
+          "time": "11:10"
+        },
+        {
+          "station": "Segambut",
+          "time": "11:14"
+        },
+        {
+          "station": "Kepong",
+          "time": "11:19"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "11:22"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "11:29"
+        },
+        {
+          "station": "Kuang",
+          "time": "11:37"
+        },
+        {
+          "station": "Rawang",
+          "time": "11:45"
+        },
+        {
+          "station": "Serendah",
+          "time": "11:53"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "12:01"
+        },
+        {
+          "station": "Rasa",
+          "time": "12:05"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "12:10"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "12:23"
+        }
+      ]
+    },
+    {
+      "train": "2131",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "09:27"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "09:40"
+        },
+        {
+          "station": "Rasa",
+          "time": "09:45"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "09:49"
+        },
+        {
+          "station": "Serendah",
+          "time": "09:57"
+        },
+        {
+          "station": "Rawang",
+          "time": "10:06"
+        },
+        {
+          "station": "Kuang",
+          "time": "10:13"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "10:21"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "10:28"
+        },
+        {
+          "station": "Kepong",
+          "time": "10:31"
+        },
+        {
+          "station": "Segambut",
+          "time": "10:36"
+        },
+        {
+          "station": "Putra",
+          "time": "10:41"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "10:44"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "10:48"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "10:51"
+        }
+      ]
+    },
+    {
+      "train": "2135",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "10:22"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "10:35"
+        },
+        {
+          "station": "Rasa",
+          "time": "10:40"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "10:44"
+        },
+        {
+          "station": "Serendah",
+          "time": "10:52"
+        },
+        {
+          "station": "Rawang",
+          "time": "11:01"
+        },
+        {
+          "station": "Kuang",
+          "time": "11:08"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "11:16"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "11:23"
+        },
+        {
+          "station": "Kepong",
+          "time": "11:26"
+        },
+        {
+          "station": "Segambut",
+          "time": "11:31"
+        },
+        {
+          "station": "Putra",
+          "time": "11:36"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "11:39"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "11:43"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "11:46"
+        }
+      ]
+    },
+    {
+      "train": "2138",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "12:02"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "12:06"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "12:10"
+        },
+        {
+          "station": "Putra",
+          "time": "12:13"
+        },
+        {
+          "station": "Segambut",
+          "time": "12:17"
+        },
+        {
+          "station": "Kepong",
+          "time": "12:22"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "12:25"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "12:32"
+        },
+        {
+          "station": "Kuang",
+          "time": "12:40"
+        },
+        {
+          "station": "Rawang",
+          "time": "12:48"
+        },
+        {
+          "station": "Serendah",
+          "time": "12:56"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "13:04"
+        },
+        {
+          "station": "Rasa",
+          "time": "13:08"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "13:13"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "13:26"
+        }
+      ]
+    },
+    {
+      "train": "2139",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "11:22"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "11:35"
+        },
+        {
+          "station": "Rasa",
+          "time": "11:40"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "11:44"
+        },
+        {
+          "station": "Serendah",
+          "time": "11:52"
+        },
+        {
+          "station": "Rawang",
+          "time": "12:01"
+        },
+        {
+          "station": "Kuang",
+          "time": "12:13"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "12:21"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "12:28"
+        },
+        {
+          "station": "Kepong",
+          "time": "12:31"
+        },
+        {
+          "station": "Segambut",
+          "time": "12:36"
+        },
+        {
+          "station": "Putra",
+          "time": "12:41"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "12:44"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "12:48"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "12:51"
+        }
+      ]
+    },
+    {
+      "train": "2142",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "13:02"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "13:06"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "13:10"
+        },
+        {
+          "station": "Putra",
+          "time": "13:13"
+        },
+        {
+          "station": "Segambut",
+          "time": "13:17"
+        },
+        {
+          "station": "Kepong",
+          "time": "13:22"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "13:25"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "13:32"
+        },
+        {
+          "station": "Kuang",
+          "time": "13:40"
+        },
+        {
+          "station": "Rawang",
+          "time": "13:48"
+        },
+        {
+          "station": "Serendah",
+          "time": "13:56"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "14:04"
+        },
+        {
+          "station": "Rasa",
+          "time": "14:08"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "14:13"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "14:26"
+        }
+      ]
+    },
+    {
+      "train": "2143",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "12:32"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "12:45"
+        },
+        {
+          "station": "Rasa",
+          "time": "12:50"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "12:54"
+        },
+        {
+          "station": "Serendah",
+          "time": "13:02"
+        },
+        {
+          "station": "Rawang",
+          "time": "13:11"
+        },
+        {
+          "station": "Kuang",
+          "time": "13:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "13:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "13:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "13:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "13:41"
+        },
+        {
+          "station": "Putra",
+          "time": "13:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "13:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "13:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "13:56"
+        }
+      ]
+    },
+    {
+      "train": "2146",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "14:17"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "14:21"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "14:25"
+        },
+        {
+          "station": "Putra",
+          "time": "14:28"
+        },
+        {
+          "station": "Segambut",
+          "time": "14:32"
+        },
+        {
+          "station": "Kepong",
+          "time": "14:37"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "14:40"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "14:47"
+        },
+        {
+          "station": "Kuang",
+          "time": "14:55"
+        },
+        {
+          "station": "Rawang",
+          "time": "15:03"
+        },
+        {
+          "station": "Serendah",
+          "time": "15:11"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "15:19"
+        },
+        {
+          "station": "Rasa",
+          "time": "15:23"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "15:28"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "15:41"
+        }
+      ]
+    },
+    {
+      "train": "2147",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "13:32"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "13:45"
+        },
+        {
+          "station": "Rasa",
+          "time": "13:50"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "13:54"
+        },
+        {
+          "station": "Serendah",
+          "time": "14:02"
+        },
+        {
+          "station": "Rawang",
+          "time": "14:11"
+        },
+        {
+          "station": "Kuang",
+          "time": "14:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "14:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "14:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "14:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "14:41"
+        },
+        {
+          "station": "Putra",
+          "time": "14:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "14:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "14:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "14:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "15:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "15:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "15:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "15:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "15:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "15:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "15:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "15:31"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "15:39"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "15:47"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "16:03"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "16:09"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "16:15"
+        },
+        {
+          "station": "Klang",
+          "time": "16:19"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "16:22"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "16:25"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "16:27"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "16:34"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "16:40"
+        }
+      ]
+    },
+    {
+      "train": "2150",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "15:12"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "15:16"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "15:20"
+        },
+        {
+          "station": "Putra",
+          "time": "15:23"
+        },
+        {
+          "station": "Segambut",
+          "time": "15:27"
+        },
+        {
+          "station": "Kepong",
+          "time": "15:32"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "15:35"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "15:42"
+        },
+        {
+          "station": "Kuang",
+          "time": "15:50"
+        },
+        {
+          "station": "Rawang",
+          "time": "15:58"
+        },
+        {
+          "station": "Serendah",
+          "time": "16:06"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "16:14"
+        },
+        {
+          "station": "Rasa",
+          "time": "16:18"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "16:23"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "16:36"
+        }
+      ]
+    },
+    {
+      "train": "2151",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "14:32"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "14:45"
+        },
+        {
+          "station": "Rasa",
+          "time": "14:50"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "14:54"
+        },
+        {
+          "station": "Serendah",
+          "time": "15:02"
+        },
+        {
+          "station": "Rawang",
+          "time": "15:11"
+        },
+        {
+          "station": "Kuang",
+          "time": "15:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "15:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "15:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "15:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "15:41"
+        },
+        {
+          "station": "Putra",
+          "time": "15:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "15:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "15:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "15:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "16:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "16:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "16:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "16:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "16:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "16:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "16:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "16:31"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "16:39"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "16:47"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "17:03"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "17:09"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "17:15"
+        },
+        {
+          "station": "Klang",
+          "time": "17:19"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "17:22"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "17:25"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "17:27"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "17:34"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "17:40"
+        }
+      ]
+    },
+    {
+      "train": "2154",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Shah Alam",
+          "time": "15:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "15:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "15:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "15:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "15:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "15:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "15:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "15:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "15:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "15:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "15:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "16:04"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "16:08"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "16:12"
+        },
+        {
+          "station": "Putra",
+          "time": "16:15"
+        },
+        {
+          "station": "Segambut",
+          "time": "16:19"
+        },
+        {
+          "station": "Kepong",
+          "time": "16:24"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "16:27"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "16:34"
+        },
+        {
+          "station": "Kuang",
+          "time": "16:42"
+        },
+        {
+          "station": "Rawang",
+          "time": "16:50"
+        },
+        {
+          "station": "Serendah",
+          "time": "16:58"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "17:06"
+        },
+        {
+          "station": "Rasa",
+          "time": "17:10"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "17:15"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "17:28"
+        }
+      ]
+    },
+    {
+      "train": "2155",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "15:22"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "15:35"
+        },
+        {
+          "station": "Rasa",
+          "time": "15:40"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "15:44"
+        },
+        {
+          "station": "Serendah",
+          "time": "15:52"
+        },
+        {
+          "station": "Rawang",
+          "time": "16:01"
+        },
+        {
+          "station": "Kuang",
+          "time": "16:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "16:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "16:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "16:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "16:41"
+        },
+        {
+          "station": "Putra",
+          "time": "16:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "16:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "16:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "16:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "17:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "17:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "17:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "17:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "17:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "17:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "17:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "17:31"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "17:39"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "17:47"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "18:03"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "18:09"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "18:15"
+        },
+        {
+          "station": "Klang",
+          "time": "18:19"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "18:22"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "18:25"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "18:27"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "18:34"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "18:40"
+        }
+      ]
+    },
+    {
+      "train": "2156",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "15:25"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "15:31"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "15:35"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "15:37"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "15:40"
+        },
+        {
+          "station": "Klang",
+          "time": "15:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "15:47"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "15:54"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "16:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "16:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "16:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "16:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "16:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "16:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "16:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "16:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "16:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "16:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "16:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "17:04"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "17:08"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "17:12"
+        },
+        {
+          "station": "Putra",
+          "time": "17:15"
+        },
+        {
+          "station": "Segambut",
+          "time": "17:19"
+        },
+        {
+          "station": "Kepong",
+          "time": "17:24"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "17:27"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "17:34"
+        },
+        {
+          "station": "Kuang",
+          "time": "17:42"
+        },
+        {
+          "station": "Rawang",
+          "time": "17:50"
+        },
+        {
+          "station": "Serendah",
+          "time": "17:58"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "18:06"
+        },
+        {
+          "station": "Rasa",
+          "time": "18:10"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "18:15"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "18:28"
+        }
+      ]
+    },
+    {
+      "train": "2157",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "16:02"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "16:15"
+        },
+        {
+          "station": "Rasa",
+          "time": "16:20"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "16:24"
+        },
+        {
+          "station": "Serendah",
+          "time": "16:32"
+        },
+        {
+          "station": "Rawang",
+          "time": "16:41"
+        },
+        {
+          "station": "Kuang",
+          "time": "16:48"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "16:56"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "17:03"
+        },
+        {
+          "station": "Kepong",
+          "time": "17:06"
+        },
+        {
+          "station": "Segambut",
+          "time": "17:11"
+        },
+        {
+          "station": "Putra",
+          "time": "17:16"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "17:19"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "17:23"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "17:26"
+        }
+      ]
+    },
+    {
+      "train": "2158",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "17:34"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "17:38"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "17:42"
+        },
+        {
+          "station": "Putra",
+          "time": "17:45"
+        },
+        {
+          "station": "Segambut",
+          "time": "17:49"
+        },
+        {
+          "station": "Kepong",
+          "time": "17:54"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "17:57"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "18:04"
+        },
+        {
+          "station": "Kuang",
+          "time": "18:12"
+        },
+        {
+          "station": "Rawang",
+          "time": "18:20"
+        },
+        {
+          "station": "Serendah",
+          "time": "18:28"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "18:36"
+        },
+        {
+          "station": "Rasa",
+          "time": "18:40"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "18:45"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "18:58"
+        }
+      ]
+    },
+    {
+      "train": "2162",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "16:25"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "16:31"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "16:35"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "16:37"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "16:40"
+        },
+        {
+          "station": "Klang",
+          "time": "16:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "16:47"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "16:54"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "17:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "17:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "17:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "17:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "17:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "17:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "17:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "17:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "17:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "17:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "17:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "18:04"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "18:08"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "18:12"
+        },
+        {
+          "station": "Putra",
+          "time": "18:15"
+        },
+        {
+          "station": "Segambut",
+          "time": "18:19"
+        },
+        {
+          "station": "Kepong",
+          "time": "18:24"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "18:27"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "18:34"
+        },
+        {
+          "station": "Kuang",
+          "time": "18:42"
+        },
+        {
+          "station": "Rawang",
+          "time": "18:50"
+        },
+        {
+          "station": "Serendah",
+          "time": "18:58"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "19:06"
+        },
+        {
+          "station": "Rasa",
+          "time": "19:10"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "19:15"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "19:28"
+        }
+      ]
+    },
+    {
+      "train": "2163",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "16:17"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "16:30"
+        },
+        {
+          "station": "Rasa",
+          "time": "16:35"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "16:39"
+        },
+        {
+          "station": "Serendah",
+          "time": "16:47"
+        },
+        {
+          "station": "Rawang",
+          "time": "16:56"
+        },
+        {
+          "station": "Kuang",
+          "time": "17:13"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "17:21"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "17:28"
+        },
+        {
+          "station": "Kepong",
+          "time": "17:31"
+        },
+        {
+          "station": "Segambut",
+          "time": "17:36"
+        },
+        {
+          "station": "Putra",
+          "time": "17:41"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "17:44"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "17:48"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "17:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "18:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "18:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "18:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "18:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "18:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "18:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "18:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "18:31"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "18:39"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "18:47"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "19:03"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "19:21"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "19:27"
+        },
+        {
+          "station": "Klang",
+          "time": "19:31"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "19:34"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "19:37"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "19:39"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "19:42"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "19:48"
+        }
+      ]
+    },
+    {
+      "train": "2165",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "17:02"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "17:15"
+        },
+        {
+          "station": "Rasa",
+          "time": "17:20"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "17:24"
+        },
+        {
+          "station": "Serendah",
+          "time": "17:32"
+        },
+        {
+          "station": "Rawang",
+          "time": "17:41"
+        },
+        {
+          "station": "Kuang",
+          "time": "17:49"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "17:57"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "18:04"
+        },
+        {
+          "station": "Kepong",
+          "time": "18:07"
+        },
+        {
+          "station": "Segambut",
+          "time": "18:12"
+        },
+        {
+          "station": "Putra",
+          "time": "18:17"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "18:20"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "18:24"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "18:27"
+        }
+      ]
+    },
+    {
+      "train": "2166",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "18:39"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "18:43"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "18:47"
+        },
+        {
+          "station": "Putra",
+          "time": "18:50"
+        },
+        {
+          "station": "Segambut",
+          "time": "18:54"
+        },
+        {
+          "station": "Kepong",
+          "time": "18:59"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "19:02"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "19:09"
+        },
+        {
+          "station": "Kuang",
+          "time": "19:17"
+        },
+        {
+          "station": "Rawang",
+          "time": "19:25"
+        },
+        {
+          "station": "Serendah",
+          "time": "19:33"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "19:41"
+        },
+        {
+          "station": "Rasa",
+          "time": "19:45"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "19:50"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "20:03"
+        }
+      ]
+    },
+    {
+      "train": "2167",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "KL Sentral",
+          "time": "18:23"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "18:29"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "18:32"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "18:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "18:45"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "18:51"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "18:53"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "18:56"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "19:04"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "19:38"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "19:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "19:50"
+        },
+        {
+          "station": "Klang",
+          "time": "19:54"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "19:57"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "20:00"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "20:02"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "20:05"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "20:11"
+        }
+      ]
+    },
+    {
+      "train": "2168",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "17:25"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "17:31"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "17:35"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "17:37"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "17:40"
+        },
+        {
+          "station": "Klang",
+          "time": "17:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "17:47"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "17:54"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "18:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "18:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "18:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "18:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "18:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "18:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "18:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "18:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "18:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "18:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "18:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "19:09"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "19:13"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "19:17"
+        },
+        {
+          "station": "Putra",
+          "time": "19:20"
+        },
+        {
+          "station": "Segambut",
+          "time": "19:24"
+        },
+        {
+          "station": "Kepong",
+          "time": "19:29"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "19:32"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "19:39"
+        },
+        {
+          "station": "Kuang",
+          "time": "19:47"
+        },
+        {
+          "station": "Rawang",
+          "time": "19:55"
+        },
+        {
+          "station": "Serendah",
+          "time": "20:03"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "20:11"
+        },
+        {
+          "station": "Rasa",
+          "time": "20:15"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "20:20"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "20:33"
+        }
+      ]
+    },
+    {
+      "train": "2171",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "17:22"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "17:35"
+        },
+        {
+          "station": "Rasa",
+          "time": "17:40"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "17:44"
+        },
+        {
+          "station": "Serendah",
+          "time": "17:52"
+        },
+        {
+          "station": "Rawang",
+          "time": "18:11"
+        },
+        {
+          "station": "Kuang",
+          "time": "18:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "18:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "18:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "18:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "18:41"
+        },
+        {
+          "station": "Putra",
+          "time": "18:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "18:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "18:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "18:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "19:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "19:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "19:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "19:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "19:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "19:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "19:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "19:31"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "19:39"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "19:47"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "20:03"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "20:09"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "20:15"
+        },
+        {
+          "station": "Klang",
+          "time": "20:19"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "20:22"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "20:25"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "20:27"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "20:34"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "20:40"
+        }
+      ]
+    },
+    {
+      "train": "2174",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "18:25"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "18:31"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "18:35"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "18:37"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "18:40"
+        },
+        {
+          "station": "Klang",
+          "time": "18:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "18:47"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "18:54"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "19:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "19:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "19:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "19:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "19:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "19:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "19:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "19:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "19:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "19:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "19:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "19:59"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "20:03"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "20:07"
+        },
+        {
+          "station": "Putra",
+          "time": "20:10"
+        },
+        {
+          "station": "Segambut",
+          "time": "20:14"
+        },
+        {
+          "station": "Kepong",
+          "time": "20:19"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "20:22"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "20:29"
+        },
+        {
+          "station": "Kuang",
+          "time": "20:37"
+        },
+        {
+          "station": "Rawang",
+          "time": "20:45"
+        },
+        {
+          "station": "Serendah",
+          "time": "20:53"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "21:01"
+        },
+        {
+          "station": "Rasa",
+          "time": "21:05"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "21:10"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "21:23"
+        }
+      ]
+    },
+    {
+      "train": "2175",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "18:32"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "18:45"
+        },
+        {
+          "station": "Rasa",
+          "time": "18:50"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "18:54"
+        },
+        {
+          "station": "Serendah",
+          "time": "19:02"
+        },
+        {
+          "station": "Rawang",
+          "time": "19:11"
+        },
+        {
+          "station": "Kuang",
+          "time": "19:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "19:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "19:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "19:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "19:41"
+        },
+        {
+          "station": "Putra",
+          "time": "19:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "19:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "19:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "19:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "20:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "20:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "20:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "20:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "20:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "20:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "20:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "20:31"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "20:39"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "20:47"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "21:03"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "21:09"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "21:15"
+        },
+        {
+          "station": "Klang",
+          "time": "21:19"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "21:22"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "21:25"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "21:27"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "21:34"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "21:40"
+        }
+      ]
+    },
+    {
+      "train": "2178",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "18:52"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "18:58"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "19:02"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "19:04"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "19:07"
+        },
+        {
+          "station": "Klang",
+          "time": "19:11"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "19:14"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "19:21"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "20:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "20:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "20:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "20:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "20:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "20:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "20:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "20:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "20:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "20:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "20:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "20:59"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "21:03"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "21:07"
+        },
+        {
+          "station": "Putra",
+          "time": "21:10"
+        },
+        {
+          "station": "Segambut",
+          "time": "21:14"
+        },
+        {
+          "station": "Kepong",
+          "time": "21:19"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "21:22"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "21:29"
+        },
+        {
+          "station": "Kuang",
+          "time": "21:37"
+        },
+        {
+          "station": "Rawang",
+          "time": "21:45"
+        },
+        {
+          "station": "Serendah",
+          "time": "21:53"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "22:01"
+        },
+        {
+          "station": "Rasa",
+          "time": "22:05"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "22:10"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "22:23"
+        }
+      ]
+    },
+    {
+      "train": "2179",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "19:32"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "19:45"
+        },
+        {
+          "station": "Rasa",
+          "time": "19:50"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "19:54"
+        },
+        {
+          "station": "Serendah",
+          "time": "20:02"
+        },
+        {
+          "station": "Rawang",
+          "time": "20:11"
+        },
+        {
+          "station": "Kuang",
+          "time": "20:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "20:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "20:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "20:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "20:41"
+        },
+        {
+          "station": "Putra",
+          "time": "20:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "20:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "20:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "20:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "21:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "21:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "21:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "21:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "21:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "21:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "21:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "21:31"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "21:39"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "21:47"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "22:03"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "22:09"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "22:15"
+        },
+        {
+          "station": "Klang",
+          "time": "22:19"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "22:22"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "22:25"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "22:27"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "22:30"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "22:36"
+        }
+      ]
+    },
+    {
+      "train": "2182",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "20:25"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "20:31"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "20:35"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "20:37"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "20:40"
+        },
+        {
+          "station": "Klang",
+          "time": "20:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "20:47"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "20:54"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "21:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "21:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "21:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "21:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "21:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "21:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "21:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "21:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "21:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "21:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "21:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "22:09"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "22:13"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "22:17"
+        },
+        {
+          "station": "Putra",
+          "time": "22:20"
+        },
+        {
+          "station": "Segambut",
+          "time": "22:24"
+        },
+        {
+          "station": "Kepong",
+          "time": "22:29"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "22:32"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "22:39"
+        },
+        {
+          "station": "Kuang",
+          "time": "22:47"
+        },
+        {
+          "station": "Rawang",
+          "time": "22:55"
+        },
+        {
+          "station": "Serendah",
+          "time": "23:03"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "23:11"
+        },
+        {
+          "station": "Rasa",
+          "time": "23:15"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "23:20"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "23:33"
+        }
+      ]
+    },
+    {
+      "train": "2183",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "20:32"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "20:45"
+        },
+        {
+          "station": "Rasa",
+          "time": "20:50"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "20:54"
+        },
+        {
+          "station": "Serendah",
+          "time": "21:02"
+        },
+        {
+          "station": "Rawang",
+          "time": "21:11"
+        },
+        {
+          "station": "Kuang",
+          "time": "21:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "21:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "21:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "21:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "21:41"
+        },
+        {
+          "station": "Putra",
+          "time": "21:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "21:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "21:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "21:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "22:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "22:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "22:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "22:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "22:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "22:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "22:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "22:31"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "22:39"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "22:47"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "22:58"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "23:04"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "23:10"
+        },
+        {
+          "station": "Klang",
+          "time": "23:14"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "23:17"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "23:20"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "23:22"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "23:25"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "23:31"
+        }
+      ]
+    },
+    {
+      "train": "2186",
+      "direction": "Pelabuhan Klang → Tanjung Malim",
+      "stops": [
+        {
+          "station": "Pelabuhan Klang",
+          "time": "21:25"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "21:31"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "21:35"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "21:37"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "21:40"
+        },
+        {
+          "station": "Klang",
+          "time": "21:44"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "21:47"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "21:54"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "22:02"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "22:12"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "22:21"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "22:29"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "22:31"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "22:34"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "22:40"
+        },
+        {
+          "station": "Petaling",
+          "time": "22:42"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "22:45"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "22:48"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "22:51"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "22:59"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "23:03"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "23:07"
+        },
+        {
+          "station": "Putra",
+          "time": "23:10"
+        },
+        {
+          "station": "Segambut",
+          "time": "23:14"
+        },
+        {
+          "station": "Kepong",
+          "time": "23:19"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "23:22"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "23:29"
+        },
+        {
+          "station": "Kuang",
+          "time": "23:37"
+        },
+        {
+          "station": "Rawang",
+          "time": "23:45"
+        },
+        {
+          "station": "Serendah",
+          "time": "23:53"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "00:01"
+        },
+        {
+          "station": "Rasa",
+          "time": "00:05"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "00:10"
+        },
+        {
+          "station": "Tanjung Malim",
+          "time": "00:23"
+        }
+      ]
+    },
+    {
+      "train": "2187",
+      "direction": "Tanjung Malim → Pelabuhan Klang",
+      "stops": [
+        {
+          "station": "Tanjung Malim",
+          "time": "21:27"
+        },
+        {
+          "station": "Kuala Kubu Bharu",
+          "time": "21:40"
+        },
+        {
+          "station": "Rasa",
+          "time": "21:45"
+        },
+        {
+          "station": "Batang Kali",
+          "time": "21:49"
+        },
+        {
+          "station": "Serendah",
+          "time": "21:57"
+        },
+        {
+          "station": "Rawang",
+          "time": "22:06"
+        },
+        {
+          "station": "Kuang",
+          "time": "22:18"
+        },
+        {
+          "station": "Sungai Buloh",
+          "time": "22:26"
+        },
+        {
+          "station": "Kepong Sentral",
+          "time": "22:33"
+        },
+        {
+          "station": "Kepong",
+          "time": "22:36"
+        },
+        {
+          "station": "Segambut",
+          "time": "22:41"
+        },
+        {
+          "station": "Putra",
+          "time": "22:46"
+        },
+        {
+          "station": "Bank Negara",
+          "time": "22:49"
+        },
+        {
+          "station": "Kuala Lumpur",
+          "time": "22:53"
+        },
+        {
+          "station": "KL Sentral",
+          "time": "22:58"
+        },
+        {
+          "station": "Abdullah Hukum",
+          "time": "23:04"
+        },
+        {
+          "station": "Angkasapuri",
+          "time": "23:07"
+        },
+        {
+          "station": "Pantai Dalam",
+          "time": "23:09"
+        },
+        {
+          "station": "Petaling",
+          "time": "23:12"
+        },
+        {
+          "station": "Jalan Templer",
+          "time": "23:14"
+        },
+        {
+          "station": "Kg Dato Harun",
+          "time": "23:20"
+        },
+        {
+          "station": "Seri Setia",
+          "time": "23:22"
+        },
+        {
+          "station": "Setia Jaya",
+          "time": "23:25"
+        },
+        {
+          "station": "Subang Jaya",
+          "time": "23:33"
+        },
+        {
+          "station": "Batu Tiga",
+          "time": "23:41"
+        },
+        {
+          "station": "Shah Alam",
+          "time": "23:52"
+        },
+        {
+          "station": "Padang Jawa",
+          "time": "23:58"
+        },
+        {
+          "station": "Bukit Badak",
+          "time": "00:04"
+        },
+        {
+          "station": "Klang",
+          "time": "00:08"
+        },
+        {
+          "station": "Teluk Pulai",
+          "time": "00:11"
+        },
+        {
+          "station": "Teluk Gadong",
+          "time": "00:14"
+        },
+        {
+          "station": "Kg Raja Uda",
+          "time": "00:16"
+        },
+        {
+          "station": "Jalan Kastam",
+          "time": "00:19"
+        },
+        {
+          "station": "Pelabuhan Klang",
+          "time": "00:25"
+        }
+      ]
+    }
+  ]
+}

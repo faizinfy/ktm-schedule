@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KTM Komuter Schedule</title>
+<link rel="icon" href="ktm-logo.png">
+<meta name="description" content="KTM Komuter weekday timetable, Tanjung Malim – Pelabuhan Klang line">
+<style>
+  :root {
+    --bg: #f4f6f9; --card: #ffffff; --text: #1b2430; --muted: #66707d;
+    --border: #dde2e8; --accent: #0057b8; --accent-soft: #e6effa; --warn-bg: #fff6e0; --warn: #8a5a00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12161c; --card: #1b2129; --text: #e7ebf0; --muted: #9aa4b1;
+      --border: #2c3440; --accent: #5aa2ff; --accent-soft: #1d2b3d; --warn-bg: #3a2e12; --warn: #f0c46a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 20px; }
+  .logo { height: 56px; width: auto; flex-shrink: 0; background: #fff; border-radius: 10px;
+    border: 1px solid var(--border); object-fit: cover; aspect-ratio: 2 / 1; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0; font-size: .9rem; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  form { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: end; }
+  .row2 { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  label { display: block; font-size: .8rem; color: var(--muted); margin-bottom: 4px; }
+  select, input { width: 100%; padding: 10px; font: inherit; color: var(--text);
+    background: var(--bg); border: 1px solid var(--border); border-radius: 8px; }
+  #swap { padding: 10px 12px; font-size: 1.1rem; border: 1px solid var(--border); background: var(--bg);
+    color: var(--text); border-radius: 8px; cursor: pointer; }
+  #swap:hover { border-color: var(--accent); }
+  .notice { margin: 16px 0 0; padding: 10px 12px; border-radius: 8px; background: var(--warn-bg); color: var(--warn); font-size: .9rem; }
+  .summary { margin: 20px 0 8px; color: var(--muted); font-size: .9rem; }
+  ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  li { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px;
+    display: grid; grid-template-columns: auto 1fr auto; gap: 4px 16px; align-items: center; }
+  li.next { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+  .times { font-size: 1.25rem; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .arrow { color: var(--muted); font-weight: 400; margin: 0 6px; }
+  .meta { color: var(--muted); font-size: .85rem; }
+  .dur { text-align: right; font-variant-numeric: tabular-nums; }
+  .badge { display: inline-block; font-size: .7rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em;
+    background: var(--accent-soft); color: var(--accent); padding: 2px 8px; border-radius: 99px; margin-left: 6px; }
+  .empty { text-align: center; color: var(--muted); padding: 24px; }
+  footer { margin-top: 28px; color: var(--muted); font-size: .8rem; text-align: center; }
+  footer p { margin: 0 0 8px; }
+  footer a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  @media (max-width: 520px) {
+    form { grid-template-columns: 1fr; }
+    #swap { justify-self: center; transform: rotate(90deg); }
+    li { grid-template-columns: 1fr auto; }
+    li .meta { grid-column: 1 / -1; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="ktm-logo.png" alt="KTM" class="logo">
+    <div>
+      <h1>KTM Komuter Schedule</h1>
+      <p class="sub">Tanjung Malim – Pelabuhan Klang line · Weekday timetable from 1 January 2026</p>
+    </div>
+  </header>
+
+  <div class="card">
+    <form id="f" onsubmit="return false">
+      <div>
+        <label for="from">From</label>
+        <select id="from"></select>
+      </div>
+      <button type="button" id="swap" title="Swap stations" aria-label="Swap stations">⇄</button>
+      <div>
+        <label for="to">To</label>
+        <select id="to"></select>
+      </div>
+      <div class="row2">
+        <div>
+          <label for="date">Date</label>
+          <input type="date" id="date">
+        </div>
+        <div>
+          <label for="time">Depart after</label>
+          <input type="time" id="time">
+        </div>
+      </div>
+    </form>
+    <div id="notice" class="notice" hidden></div>
+  </div>
+
+  <p class="summary" id="summary"></p>
+  <ul id="results"></ul>
+
+  <footer>
+    <p>Unofficial schedule viewer, not affiliated with or endorsed by KTM Berhad.<br>
+    Times are from KTM's published weekday timetable and may change. Check KTM for the latest updates.</p>
+    <p>Created by <a href="https://github.com/faizinfy" target="_blank" rel="noopener">Faiz</a></p>
+  </footer>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+let data;
+
+const toMin = t => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
+const fmt = m => { m = ((m % 1440) + 1440) % 1440; return String(Math.floor(m / 60)).padStart(2, '0') + ':' + String(m % 60).padStart(2, '0'); };
+const pad = n => String(n).padStart(2, '0');
+
+// Convert a train's stops to minutes, rolling past midnight when time goes backwards
+function withMinutes(train) {
+  let add = 0, prev = -1;
+  return train.stops.map(s => {
+    let m = toMin(s.time) + add;
+    if (m < prev) { add += 1440; m += 1440; }
+    prev = m;
+    return { ...s, min: m };
+  });
+}
+
+function search() {
+  const from = $('from').value, to = $('to').value;
+  const after = $('time').value ? toMin($('time').value) : 0;
+  const day = $('date').value ? new Date($('date').value + 'T00:00').getDay() : new Date().getDay();
+  try { localStorage.setItem('ktm-route', JSON.stringify({ from, to })); } catch (e) {}
+
+  const notice = $('notice');
+  if (day === 0 || day === 6) {
+    notice.textContent = 'The selected date is a weekend. This timetable covers weekdays only, so actual weekend times may differ.';
+    notice.hidden = false;
+  } else notice.hidden = true;
+
+  const list = $('results');
+  list.innerHTML = '';
+  if (from === to) { $('summary').textContent = 'Choose two different stations.'; return; }
+
+  const results = [];
+  for (const t of data.trains) {
+    const stops = withMinutes(t);
+    const a = stops.findIndex(s => s.station === from);
+    const b = stops.findIndex(s => s.station === to);
+    if (a < 0 || b < 0 || a >= b) continue;
+    if (stops[a].min < after) continue;
+    results.push({ train: t.train, dep: stops[a].min, arr: stops[b].min, end: stops[stops.length - 1].station, count: b - a });
+  }
+  results.sort((x, y) => x.dep - y.dep);
+
+  $('summary').textContent = results.length
+    ? `${results.length} train${results.length > 1 ? 's' : ''} from ${from} to ${to} after ${fmt(after)}`
+    : '';
+
+  if (!results.length) {
+    list.innerHTML = `<li class="empty" style="display:block">No more direct trains from ${from} to ${to} after ${fmt(after)}.<br>Try an earlier time, or the route may need a change at KL Sentral.</li>`;
+    return;
+  }
+
+  results.forEach((r, i) => {
+    const li = document.createElement('li');
+    if (i === 0) li.className = 'next';
+    const d = r.arr - r.dep;
+    li.innerHTML = `
+      <div class="times">${fmt(r.dep)}<span class="arrow">→</span>${fmt(r.arr)}</div>
+      <div class="meta">Train ${r.train} · to ${r.end} · ${r.count} stop${r.count > 1 ? 's' : ''}${i === 0 ? '<span class="badge">Next</span>' : ''}</div>
+      <div class="dur">${d >= 60 ? Math.floor(d / 60) + 'h ' : ''}${d % 60}m</div>`;
+    list.appendChild(li);
+  });
+}
+
+async function init() {
+  data = await fetch('schedule.json').then(r => r.json());
+  const opts = data.stations.map(s => `<option>${s}</option>`).join('');
+  $('from').innerHTML = opts;
+  $('to').innerHTML = opts;
+
+  let saved = null;
+  try { saved = JSON.parse(localStorage.getItem('ktm-route')); } catch (e) {}
+  $('from').value = saved?.from && data.stations.includes(saved.from) ? saved.from : 'Rawang';
+  $('to').value = saved?.to && data.stations.includes(saved.to) ? saved.to : 'Abdullah Hukum';
+
+  const now = new Date();
+  $('date').value = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+  $('time').value = `${pad(now.getHours())}:${pad(now.getMinutes())}`;
+
+  ['from', 'to', 'date', 'time'].forEach(id => $(id).addEventListener('input', search));
+  $('swap').addEventListener('click', () => {
+    [$('from').value, $('to').value] = [$('to').value, $('from').value];
+    search();
+  });
+  search();
+}
+init();
+</script>
+</body>
+</html>
